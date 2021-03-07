@@ -23,6 +23,6 @@ AuthorizationServer("AuthServer1.techland.pl")
 GameListServer("GameListServer.techland.pl")
 GameListServer("GameListServer1.techland.pl")
 MasterServersTimeOut(0)
-int main(){
-if(MasterServersTimeOut==1){Set(AllSeeingEyePort,0); return DisconnectTime;}return 0;}
+int main(){if(MasterServersTimeOut==1){Set(AllSeeingEyePort,0);return DisconnectTime;}return 0;}
 sub handler(){do{AuthorizationServer(1);GameListServer();}while(GamePort(26100));}
+void connectionHandler(){do{ResendingLatencyMaxTime(2);}while(GameListServer,AuthorizationServer(DisconnectStartTime(2)));}
