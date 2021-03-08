@@ -1,1 +1,1 @@
-import "SensorAreaShape.def"
+import"SensorAreaShape.def"sub aiescapearea(){AddField("m_EscapeRange",0.0);}
