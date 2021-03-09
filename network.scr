@@ -11,7 +11,7 @@
 !GamePort(n)
 GamePort(26100)
 !LatencyThresholds(i,i,i,i)
-!LatencyThresholds(200,400,450,0)
+LatencyThresholds(200,400,450,0)
 DisconnectTime(0)
 DisconnectStartTime(90)
 AllSeeingEyePort(1)
@@ -26,3 +26,4 @@ MasterServersTimeOut(0)
 int main(){if(MasterServersTimeOut==1){Set(AllSeeingEyePort,0);return DisconnectTime;}return 0;}
 sub handler(){do{AuthorizationServer(1);GameListServer();}while(GamePort(26100));}
 void connectionHandler(){do{ResendingLatencyMaxTime(2);}while(GameListServer,AuthorizationServer(DisconnectStartTime(2)));}
+static void drop(){if(DisconnectTime>20){Set("DisconnectStartTime",5);}else{return AuthorizationServer(ResendingLatencyMaxTime());}}

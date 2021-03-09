@@ -18,19 +18,6 @@ sub main()
             SetField("m_ActivationRange", "60.0");
         }
 
-        Preset("Standard")
-        {
-            SetField("m_TimeBtwSpawns", "3.0");
-            SetField("m_MinWeight", "1100");
-            SetField("m_ActivationRange","0.0");}Preset("Standard_Fast"){SetField("m_TimeBtwSpawns","9.0");
-SetField("m`_MinWeight","1100");SetField("m_ActivationRange","0.0");}}
-PresetDef("AI Preset"){
-Description("");
-AddField("m_AIPresets","",false);
-AddField("m_AIType","zombie",false);
-AddField("m_DiffLevelTables","");
-IgnoreField("m_BeforeSpawnSoundStartRange");
-IgnoreField("m_BeforeSpawnSoundStartRangeMin");
-IgnoreField("m_MinAIsToMakeSound");
-IgnoreField("m_SpawnerBeforeSpawnSounds");
+Preset("Standard"){SetField("m_TimeBtwSpawns", "3.0");SetField("m_MinWeight", "1100");SetField("m_ActivationRange","0.0");}Preset("Standard_Fast"){SetField("m_TimeBtwSpawns","9.0");SetField("m`_MinWeight","1100");SetField("m_ActivationRange","0.0");}}
+PresetDef("AI Preset"){Description("");AddField("m_AIPresets","",false);AddField("m_AIType","zombie",false);AddField("m_DiffLevelTables","");IgnoreField("m_BeforeSpawnSoundStartRange");IgnoreField("m_BeforeSpawnSoundStartRangeMin");IgnoreField("m_MinAIsToMakeSound");IgnoreField("m_SpawnerBeforeSpawnSounds");
 use declare_ai_presets();}}
