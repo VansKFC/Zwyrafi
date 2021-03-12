@@ -1,12 +1,6 @@
 import "inventorystuff.scr"
-
 sub main()
-{	
-
-	//////////////////////////////////////////////////////
-	/////////// 6TH ANNIVERSARY - ZOMBIE HUNT ////////////
-	//////////////////////////////////////////////////////
-	
+{
 	Item("Bundle_Ultra_Bundle_Goon_ZombieHunt", CategoryType_ItemBundle)
     {
         ItemType(ItemType_ItemBundle);
@@ -162,13 +156,6 @@ sub main()
         InventoryMeshHq("wn_hammer_big_f_dm_b.msh");
         RepairPart("Craft_MetalScrap", 1);
     }
-	
-	
-	
-	//////////////////////////////////////////////////////
-	///////////////// 2020 WINTER EVENT //////////////////
-	//////////////////////////////////////////////////////
-	
 	Item("ZZZZ_Melee_Sword_Winter", CategoryType_Melee)
     {
 		GameVersion(35);
@@ -264,12 +251,7 @@ sub main()
         RepairPart("Craft_MetalScrap", 1);
 		GameVersion(35);
     }	
-	
-	//////////////////////////////////////////////////////
-	//////////////////// MISC ITEMS //////////////////////
-	//////////////////////////////////////////////////////
-	
-	//used only for gather
+
 	Item("misc_DRP_christmas", CategoryType_SurvivorPack)
     {
         ItemType(ItemType_SurvivorPack);
@@ -283,5 +265,5 @@ sub main()
 		Skin("Christmas");
 		Name("&misc_DRP_N&");
 		Description("&misc_DRP_D&");
-    }	
+	}\
 }

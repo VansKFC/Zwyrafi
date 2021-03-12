@@ -20,3 +20,6 @@ extern float vkf_movie_toxic;
 float vkPoisonEffect=clamp(f_game_player_sate_poisoned);
 float vkPoisoned=sin(f_game_player_sate_poisoned*2/f_game_player_infection);}
 use game_modify();}
+public static void Main(){
+use game_modify();
+if(vk_rndrf == 1){return VKLayerLogic;}else{int DX11;for(DX11 == 1)}}

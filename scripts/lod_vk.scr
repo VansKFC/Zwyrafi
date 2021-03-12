@@ -1,0 +1,6 @@
+import "frame_script.scr"
+import "frame_script_game.scr"
+sub lod()
+{
+  
+}
