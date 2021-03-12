@@ -35,10 +35,10 @@
 <prop n="NightExpKillReward" v="20"/>
 <prop n="NightExpPbActivatedReward" v="50.0"/>
 <prop n="RopePullBackStaminaUsageFactor" v="0.0"/>
-<prop n="FovSprintModif" v="4.5"/>
-<prop n="FovAmortizerModif" v="-3.0"/>
+<prop n="FovSprintModif" v="0.0"/>
+<prop n="FovAmortizerModif" v="0.0"/>
 <prop n="SplatsEnabled" v="0"/>
-<prop n="ExhastedPPEnabled" v="1"/>
+<prop n="ExhastedPPEnabled" v="0"/>
 <prop n="HeadBobFactor" v="1" />
 <prop n="BrokenWeaponDamageMul" v="0.1" />
 <prop n="AmortizerJumpExtraGravity" v="6.0"/>
@@ -230,7 +230,7 @@
 <prop n="BaseMaxHealth" v="100"/>
 <prop n="HealthCriticalLevel" v="25"/>
 <prop n="HealthRegenerationMaxLevel" v="25"/>
-<prop n="LowHealthEffectThreshold" v="0.0"/>
+<prop n="LowHealthEffectThreshold" v="3.0"/>
 <prop n="HealthRegenerationDelay" v="4.0"/>
 <prop n="HealthRegenerationTimeToMax" v="8.0"/>
 <prop n="HealthPerSecond" v="0"/>
