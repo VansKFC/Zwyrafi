@@ -228,9 +228,9 @@
 <prop n="HideWeaponsDuringSprint" v="0.0"/>
 <prop n="MaxHealth" v="100"/>
 <prop n="BaseMaxHealth" v="100"/>
-<prop n="HealthCriticalLevel" v="25"/>
+<prop n="HealthCriticalLevel" v="1"/>
 <prop n="HealthRegenerationMaxLevel" v="25"/>
-<prop n="LowHealthEffectThreshold" v="3.0"/>
+<prop n="LowHealthEffectThreshold" v="1.0"/>
 <prop n="HealthRegenerationDelay" v="4.0"/>
 <prop n="HealthRegenerationTimeToMax" v="8.0"/>
 <prop n="HealthPerSecond" v="0"/>

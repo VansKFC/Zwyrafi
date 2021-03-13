@@ -71,8 +71,8 @@
 <prop n="HealthRegenerationDelay" v="10"/>
 <prop n="HealthPerSecond" v="0.5"/>
 <prop n="CanBeRevived" v="0"/>
-<prop n="HealthCriticalLevel" v="125"/>
-<prop n="LowHealthEffectThreshold" v="3.0"/>
+<prop n="HealthCriticalLevel" v="1"/>
+<prop n="LowHealthEffectThreshold" v="1.0"/>
 <prop n="MediumHitReactionHealth" v="-1.0"/>
 <prop n="LowHitReactionHealth" v="-1.0"/>
 <prop n="HighHitReactionHealth" v="500"/>

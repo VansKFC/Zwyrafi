@@ -1,8 +1,5 @@
-//This script is generated from Inventory.xlsm. Don't modify it!!!
-
 import "inventorystuff.scr" 
-sub main() 
-{
+sub main() {
 
     Item("Melee_ShortKnifeCGen", CategoryType_Melee)
     {
@@ -33243,7 +33240,6 @@ sub main()
         AmmoType(AmmoType_Rifle);
         MaxAmmoCount(180);
     }
-
     Item("Bullet_Shotgun", CategoryType_Ammo)
     {
         Mesh("ammo_gauge.msh");
@@ -33252,7 +33248,6 @@ sub main()
         AmmoType(AmmoType_Shotgun);
         MaxAmmoCount(72);
     }
-
     Item("zzz_Bullet_Shisha", CategoryType_Ammo)
     {
         Mesh("loot_ok_ammo_short.msh");
@@ -33261,23 +33256,15 @@ sub main()
         AmmoType(AmmoType_Pistol);
         MaxAmmoCount(60);
     }
-    
-    //WHITE
     DamageMultiplier(1, 0.95);
     DamageMultiplier(2, 1.01);
-    //GREEN
     DamageMultiplier(3, 1.00);
     DamageMultiplier(4, 1.10);
-    //BLUE
     DamageMultiplier(5, 1.30);
     DamageMultiplier(6, 1.35);
-    //VIOLET
     DamageMultiplier(7, 1.40);
     DamageMultiplier(8, 1.45);
-    //ORANGE
     DamageMultiplier(9, 1.50);
     DamageMultiplier(10, 1.55);
-    //PLATINUM
     DamageMultiplier(11, 1.56);
-    DamageMultiplier(12, 1.60);
-}
+    DamageMultiplier(12, 1.60);}
