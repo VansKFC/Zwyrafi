@@ -1,6 +1,2 @@
 import "AISpawnBox.pre.als.def"
-
-sub main()
-{
-    use declare_ai_presets_aliases();
-}
+sub main(){Set("AiSpawnBoxNumber",0);use declare_ai_presets_aliases();}
