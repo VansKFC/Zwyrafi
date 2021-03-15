@@ -1,14 +1,6 @@
 import "inventorystuff.scr" 
 sub main() {
-
-    Item("Melee_ShortKnifeCGen", CategoryType_Melee)
-    {
-        Visibility(true);
-        ItemType(ItemType_Knife);
-        PhysicsScript("single_dropped_inventory.phx");
-        UpgradeLevel(0);
-        Condition(40);
-        CriticalCondition(12);
+Item("Melee_ShortKnifeCGen", CategoryType_Melee){Visibility(true);ItemType(ItemType_Knife);PhysicsScript("single_dropped_inventory.phx");UpgradeLevel(0);Condition(40);CriticalCondition(12);
         Damage(25.0);
         Force(10.0);
         CriticalProb(0.0);
